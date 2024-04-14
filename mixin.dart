@@ -5,8 +5,16 @@ animal.fn();
 mixin jump {
  int jumping = 14;
 }
-class Animal with jump {
+mixin scream {
+  bool isScreaming = false;
+}
+mixin human {
+  String Name = 'F ahim'; 
+}
+class Animal with jump ,scream ,human{
   void fn (){
     print(jumping);
+    print(isScreaming);
+    print(Name);
   }
 }
