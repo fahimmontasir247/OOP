@@ -8,8 +8,8 @@ void main (){
   }
   // for in loop 
 
-  String name = ' Fahim ';
-  for ( int i = 1; i < name.length ; i ++){
+  String name = 'Fahim ';
+  for ( int i = 0; i < name.length ; i ++){
     print(name[i]);
   }
 }
