@@ -16,7 +16,8 @@ void main (){
   }
  }
   class Car extends vehicle {
-    int noOfWheels =4;
+    int noOfWheels =4
+  ;
 
     void Display (){
       print(noOfWheels);
